@@ -104,7 +104,6 @@ def assert_text_contains(expected_text, actual_text, bol_log=False, cont=False):
         screenshot()
         logger.result(True)
         logger.loginfo("Expected= " + expected_text + " ||Actual = " + actual_text)
-        log_msg("Expected= " + expected_text + " ||Actual = " + actual_text)
     else:
         screenshot()
         logger.result(False)
