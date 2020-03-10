@@ -1,0 +1,4 @@
+*** Settings ***
+
+*** Variables ***
+${url}            https://www.facebook.com/
